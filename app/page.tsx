@@ -78,20 +78,14 @@ export default function Page() {
 							Install your app into your Whop
 						</h2>
 						<p className="text-gray-6 ml-11">
-							{envVars.appId ? (
-								<a
-									href={`https://whop.com/apps/${envVars.appId}/install`}
-									target="_blank"
-									rel="noopener noreferrer"
-									className="text-accent-9 hover:text-accent-10 underline"
-								>
-									Click here to install your app
-								</a>
-							) : (
-								<span className="text-amber-600">
-									Please set your environment variables to see the installation link
-								</span>
-							)}
+							<a
+								href="https://whop.com/apps/app_wBZz4qg6z1Z6Hy/install"
+								target="_blank"
+								rel="noopener noreferrer"
+								className="text-accent-9 hover:text-accent-10 underline"
+							>
+								Click here to install your app
+							</a>
 						</p>
 					</div>
 				</div>
